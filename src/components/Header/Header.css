@@ -8,12 +8,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    
 }
 
 .header button{
-    background-color: #F5B041;
+    background-color: #F4D03F;
     border: none;
     font-size: 18px;
 }

@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import Topics from './components/Topics/Topics';
 
 function App() {
   const router = createBrowserRouter([
@@ -12,6 +11,7 @@ function App() {
       children:[
         {
           path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Header></Header>
         }
       ]
