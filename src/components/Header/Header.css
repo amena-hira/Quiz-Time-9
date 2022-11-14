@@ -1,1 +1,25 @@
+.header{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(../../../public/image/background\ image1.jpg);
+    background-repeat: no-repeat;
+  background-size: cover; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../../public/image/background\ image.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+}
 
+.header button{
+    background-color: #F5B041;
+    border: none;
+    font-size: 18px;
+}
+@media only screen and (min-width: 992px)  {
+    .header{
+        height: 60vh;
+    }
+    
+}
