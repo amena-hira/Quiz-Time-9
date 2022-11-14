@@ -3,6 +3,7 @@ import './App.css';
 import Blog from './components/Blog/Blog';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import NotFOund from './components/NotFound/NotFOund';
 import Quiz from './components/Quiz/Quiz';
 import Statistics from './components/Statistics/Statistics';
 
@@ -30,10 +31,13 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
-        },
-
+        }
       ]
     },
+    {
+      path: '*',
+      element: <NotFOund></NotFOund>
+    }
   ]);
   return (
     <div className="App">
