@@ -4,3 +4,6 @@
 .card a{
     background-color: #F4D03F;
 }
+.card a:hover{
+    background-color: #F1C40F ;
+}

@@ -1,8 +1,4 @@
 .header{
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url(../../../public/image/background\ image1.jpg);
-    background-repeat: no-repeat;
-  background-size: cover; */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../../public/image/background\ image.jpg) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,6 +10,9 @@
     background-color: #F4D03F;
     border: none;
     font-size: 18px;
+}
+.header button:hover{
+    background-color: #F1C40F ;
 }
 @media only screen and (min-width: 992px)  {
     .header{
