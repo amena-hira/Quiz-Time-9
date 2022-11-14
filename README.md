@@ -1,3 +1,13 @@
+# Project Name - "Quiz Time"
+# Live Site Link - "https://subtle-tiramisu-709821.netlify.app/"
+# Features
+
+* Anyone can choose their quiz topic
+* Can identify their answer that is correct or not and learn the correct answer without giving the answer
+* Can know about some questions related to React Router, Context Api and Useref Hook
+* Can know total number of questions for each topic through a chart
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
