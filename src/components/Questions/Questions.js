@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Questions.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -26,15 +26,3 @@ const Questions = ({questions}) => {
 };
 
 export default Questions;
-/* <div class="">
-                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"/> Option 1
-                <label class="form-check-label" for="radio1"></label>
-            </div>
-            <div class="">
-                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"/> Option 2
-                <label class="form-check-label" for="radio2"></label>
-            </div>
-            <div class="">
-                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"/> Option 2
-                <label class="form-check-label" for="radio3"></label>
-            </div> */
